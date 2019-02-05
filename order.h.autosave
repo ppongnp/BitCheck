@@ -1,0 +1,20 @@
+#ifndef ORDER_H
+#define ORDER_H
+#include <QVector>
+#include <QString>
+
+class summaries
+{
+public:
+    summarie(int pairing,QString type,double rate,double amount);
+private:
+    int pairingID;
+    double avg;
+    double close;
+    double high;
+    double low;
+    double open;
+    
+};
+
+#endif // ORDER_H
